@@ -1,16 +1,22 @@
-# React + Vite
+# PhysioAI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI-Powered Physiotherapy Assessment and Exercise Monitoring Platform.
 
-Currently, two official plugins are available:
+## Repository Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **`frontend/`**: Interactive React + Vite application for exercise tracking, real-time pose guidance, repetition counting, and workout telemetry.
+- **`ai/`**: Core AI analysis engine, ROM (range of motion) calculator, pose processor, sensor synchronization, and repetition tracking logic.
+- **`AI Model - Sanjana/`**: Machine learning models, YOLO pose estimation scripts, training pipelines, and form evaluation datasets.
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
+Navigate to the `frontend` folder to run the web application:
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### AI & Pose Analysis
+Refer to the `ai/` and `AI Model - Sanjana/` folders for model weights, Python environment requirements, and execution scripts.
